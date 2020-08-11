@@ -1,15 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+
+
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import NavBar from "../src/components/NavBar";
+import Index from "../src/components/Home"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
+      
        <Router>
-      <nav className="navbar navbar-expand-lg bg-light navbar-light">
+         
+       <NavBar/>
+        
+      {/* <nav className="navbar navbar-expand-lg bg-light navbar-light">
         
         <Link to="/" className="navbar-brand h3">
           MERN TodoApp
@@ -27,8 +33,8 @@ function App() {
             </ul>
 
           </div>
-      </nav>
-      <Route path="/" exact component={NavBar} />
+      </nav> */}
+      <Route path="/home" exact component={Index} />
    
 
     </Router>

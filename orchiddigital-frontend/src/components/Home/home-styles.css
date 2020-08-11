@@ -1,0 +1,21 @@
+.home{
+    background-image: url("../../Images/home.svg");
+    font-family: "Inter";
+    
+   }
+
+   .btn{
+       padding: 15px;
+       border-radius: none;
+       width: 140px;
+   }
+   .h1{
+       font-weight: bolder;
+   }
+   .h6{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #6C757D;
+   }
