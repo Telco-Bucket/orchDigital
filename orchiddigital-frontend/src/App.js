@@ -1,19 +1,18 @@
 import React from 'react';
-import './App.css';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import NavBar from "../src/components/NavBar";
 import Index from "../src/components/Home"
 
 function App() {
   return (
-    <div className="App container">
+    <>
       
        <Router>
          
-       <NavBar/>
+       
         
       {/* <nav className="navbar navbar-expand-lg bg-light navbar-light">
         
@@ -34,11 +33,11 @@ function App() {
 
           </div>
       </nav> */}
-      <Route path="/home" exact component={Index} />
+      <Route path="/" exact component={Index} />
    
 
     </Router>
-    </div>
+    </>
   );
 }
 

@@ -16,7 +16,7 @@ const StyledNav = styled('div')`
   margin-bottom: 1.5rem;
   vertical-align: middle;
   div {
-    height: 100%;
+    heigh: 100%;
   }
   a {
     text-decoration: none;
@@ -24,12 +24,7 @@ const StyledNav = styled('div')`
 `;
 
 const Logo = styled('h3')`
-  font-size: 1.2em;
-  padding: 15px 0;
-  color: black;
-  span {
-    color: green;
-  }
+ 
 `;
 
 const LinkSection = styled('ul')`
@@ -46,7 +41,6 @@ const LinkSection = styled('ul')`
       text-align: center;
       padding: 10px 5px;
       color: black;
-      text-transform: uppercase;
       font-weight: 600;
       transition: 0.23s ease-out;
       :hover {
@@ -104,34 +98,34 @@ const MenuButton = styled('button')`
 const NavBar = () => {
   const [visible, setVisible] = useState(false);
   return (
-    <StyledNav>
+    <StyledNav style={{marginTop:"20px", boxShadow:"gray"}}>
       <NavLink to='/'>
         <Logo>
-        <img src={logo}  style={{height:"40px"}}  alt="logo"/>
+        <img src={logo}  style={{height:"80px"}}  alt="logo"/>
         </Logo>
       </NavLink>
 
-      <MenuButton onClick={() => setVisible((prev) => !prev)}>
+      <MenuButton style={{outline:"none"}} onClick={() => setVisible((prev) => !prev)}>
         <Menu />
       </MenuButton>
-      <LinkSection show={visible} className="container">
+      <LinkSection show={visible} className="container" >
         <li>
-          <a href='#tour'>tour</a>
+          <a href='#tour'>Home</a>
         </li>
         <li>
-          <a href='#security'> security</a>
+          <a href='#security'> About</a>
         </li>
         <li>
-          <a href='#pricing'>pricing</a>
+          <a href='#pricing'>Services</a>
         </li>
         <li>
-          <a href='#support'>support</a>
+          <a href='#support'>FAQs</a>
         </li>
         <li>
-          <a href='#signin'>sign in</a>
+          <a href='#signin'>Events</a>
         </li>
         <li>
-          <a href='#signin'>try for free</a>
+          <a href='#signin'>Contact Us</a>
         </li>
       </LinkSection>
     </StyledNav>
