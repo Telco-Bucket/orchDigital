@@ -3,6 +3,11 @@
     font-family: "Inter";
     
    }
+    .partners-height{
+    height: 50vh;
+}
+   #partners-grid{display:grid !important;
+     grid-template-columns:1fr 1fr 1fr}
    .support{
        
 font-family: "Inter";
@@ -40,7 +45,7 @@ ul, li{
        font-weight: bolder;
    }
    .feature{
-    width: 500px;
+    width: 400px;
     height: 233px;
     top: 977px;
     margin-top: 80px;
@@ -96,6 +101,14 @@ border-radius: 200px;
         width: 40vw;
         margin-top: 100px;
     }
+   }
+   @media (max-width: 900px) { 
+       #partners-grid{ 
+           grid-template-columns: 1fr;
+       }
+       .partners-height{
+           height: 80vh;
+       }
    }
    @media (max-width: 620px) {
     .about-grid{

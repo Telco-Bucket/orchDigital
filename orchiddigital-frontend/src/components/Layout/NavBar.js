@@ -1,6 +1,7 @@
 //import React, {useEffect} from 'react'
 //import {BrowserRouter as  Link} from "react-router-dom";
-import logo from "../Images/logo.svg"
+import logo from "../../Images/logo.svg"
+
 
 
 import React, { useState } from 'react';
