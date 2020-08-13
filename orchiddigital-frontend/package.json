@@ -16,6 +16,7 @@
     "react-feather": "^2.0.8",
     "react-responsive-animate-navbar": "^1.1.8",
     "react-responsive-navbar-ts": "^1.0.20",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
