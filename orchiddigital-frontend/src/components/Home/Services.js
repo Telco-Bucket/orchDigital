@@ -2,7 +2,7 @@ import React from 'react'
 import agro from "../../Images/icons/agro.svg"
 export default function Services() {
     return (
-        <div className="container-fluid pl-5 mt-sm-5 mb-4">
+        <div className="container-fluid ml-auto pt-5 mt-5 mb-4" style={{marginTop:"50px"}}>
             <div className="text-center">
                 <div className="h1">
                     Our Services
@@ -11,7 +11,7 @@ export default function Services() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.
                 </div>
                 <section className="service-grid pt-5">
-    <div class="feature">
+    <div className="feature">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>

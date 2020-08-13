@@ -42,9 +42,10 @@ const LinkSection = styled('ul')`
       padding: 10px 5px;
       color: black;
       font-weight: 600;
-      transition: 0.23s ease-out;
+      transition: 1s ease-out;
       :hover {
-        background: #520052;
+        background: #3F3D56;
+        color:white;
       }
     }
     :last-child {
@@ -86,7 +87,7 @@ const MenuButton = styled('button')`
   margin-top: 10px;
   padding: 5px 15px;
   line-height: 100%;
-  transition: 0.23s ease-out;
+  transition: 1s ease-out;
   @media (max-width: 834px) {
     display: inline;
     :hover {
