@@ -24,7 +24,7 @@ export default function Index() {
         
         <Services/>
         <Partners/>
-        <Map/>
+        
         <Footer/>
         
         </>

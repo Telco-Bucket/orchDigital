@@ -9,10 +9,10 @@ export default function Services() {
                     Our Services
                 </div>
 
-                <div className="h5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.
+                <div className="h5" style={{fontFamily:"Inter", fontWeight:"lighter"}}>
+                Lorem ipsum dolor sit amet, cons quaerat sapiente nam, id vero.
                 </div>
-                <section className="service-grid pt-5">
+                <section className="service-grid pt-3">
 <Slide left>
     <div className="feature left-align">
         <div className="green-circle" >

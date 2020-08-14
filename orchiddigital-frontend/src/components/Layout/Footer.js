@@ -55,8 +55,8 @@ export default function Footer() {
         <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Legals</h5>
 
         <ul className="list-unstyled">
-        <li>
-            <Link to="/" >lorem lorm lorem iopsum</Link>
+        <li >
+            <Link to="/" style={{fontWeight:"lighter", color:"black !important"}}>lorem lorm lorem iopsum</Link>
           </li>
           <li>
             <Link to="/" >lorem lorm lorem iopsum</Link>

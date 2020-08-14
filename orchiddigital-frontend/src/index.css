@@ -14,4 +14,10 @@ code {
     monospace;
 } */
 
+nav{
+  background-color: white;
+}
 
+body{
+  font-family: "Inter";
+}

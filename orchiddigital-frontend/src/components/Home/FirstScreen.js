@@ -10,7 +10,7 @@ export default function FirstScreen() {
 
     return (
         
-            <div className="pb-5 mt-5 mt-sm-5 first" style={{backgroundImage: `url(${home})`, height:"90vh" , width:"98vw", backgroundRepeat:"no-repeat"}}>
+            <div className="pb-5 first" style={{backgroundImage: `url(${home})`, height:"90vh" , width:"98vw", backgroundRepeat:"no-repeat"}}>
           
           <div style={{maxWidth:"450px"}}>
           <h1 className="h1 p-3" style={{color:"#F2F2F2"}}>

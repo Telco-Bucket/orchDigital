@@ -4,7 +4,7 @@
     
    }
     .partners-height{
-    height: 50vh;
+    height: 30vh;
 }
    #partners-grid{display:grid !important;
      grid-template-columns:1fr 1fr 1fr;
@@ -46,16 +46,22 @@ ul, li{
        font-weight: bolder;
    }
    .feature{
+       font-family: "Inter";
     width: 20vw;
-    height: 40vh;
-    top: 977px;
-    margin-top: 80px;
+    height: 35vh;
+    
+    margin-top: 10px;
     background: #FFF;
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
-    padding: 25px;
+    padding: 15px;
 }
+.feature>div>h6{
+    
+    font-weight: lighter;
+    
+ }
    .service-grid{
        display:grid;
        grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -100,7 +106,7 @@ background:  #3F3D56;
     } 
     .feature{
         width: 40vw;
-        margin-top: 100px;
+        margin-top: 50px;
     }
    }
    @media (max-width: 900px) { 
@@ -131,14 +137,28 @@ background:  #3F3D56;
            width: 100vw;
        }
     .service-grid{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 2px;
     } 
     .feature{
-        width: 80vw;
+        width: 40vw;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
+        margin-top: 10px;
+         max-height: 20vh;
+    }
+
+    .feature>div>h3{
+       font-size: medium;
+    }
+    .feature>div>h6{
+        font-size: small;
+        font-weight: lighter;
+        display: none;
+     }
+    .green-circle{
+        width: 30px;
+        height: 30px;
     }
    .partners{
        background-repeat: repeat;
