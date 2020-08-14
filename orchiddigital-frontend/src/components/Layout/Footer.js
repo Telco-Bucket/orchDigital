@@ -1,4 +1,5 @@
 import React from 'react'
+import {BrowserRouter as Link} from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -28,21 +29,19 @@ export default function Footer() {
  
       <div className="col-md-2 mx-auto">
 
-        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Impoetant Links</h5>
 
         <ul className="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
+          
         </ul>
 
       </div>
@@ -53,21 +52,19 @@ export default function Footer() {
     
       <div className="col-md-2 mx-auto">
 
-        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Legals</h5>
 
         <ul className="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
+        <li>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
+         
         </ul>
 
       </div>
@@ -78,20 +75,17 @@ export default function Footer() {
       <div className="col-md-2 mx-auto">
 
         
-        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 className="font-weight-bold text-uppercase mt-3 mb-4">Our Services</h5>
 
         <ul className="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
+        <li>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
           <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
+            <Link to="/" >lorem lorm lorem iopsum</Link>
           </li>
         </ul>
 

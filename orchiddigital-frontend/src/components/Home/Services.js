@@ -3,8 +3,8 @@ import agro from "../../Images/icons/agro.svg"
 import Slide from 'react-reveal/Slide';
 export default function Services() {
     return (
-        <div className="container-fluid  pt-5 mt-5 mb-4  " style={{marginTop:"20vh"    }}>
-            <div className="text-center">
+        <div className="  pt-5 mt-5 mb-4 pb-5 " style={{marginTop:"20vh", display:'grid',gridTemplateColumns:"1fr", alignItems:"center", background:'#F1F1F1' }}>
+            <div className="text-center mx-auto">
                 <div className="h1">
                     Our Services
                 </div>
@@ -13,105 +13,109 @@ export default function Services() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.
                 </div>
                 <section className="service-grid pt-5">
-                    <Slide left>
-    <div className="feature">
+<Slide left>
+    <div className="feature left-align">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
+            <div className="m-1" style={{textAlign:"left"}}>
             <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
             </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
+             </div>
     </Slide>
-<Slide  right>
-    <div className="feature">
+    <Slide right>
+    <div className="feature left-align">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
+            <div className="m-1" style={{textAlign:"left"}}>
             <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
             </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
-
-    </Slide>
-    <Slide left>
-    <div className="feature">
-        <div className="green-circle" >
-            <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
-            </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
-            <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
-            </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
-    </Slide>
-<Slide  right>
-    <div className="feature">
-        <div className="green-circle" >
-            <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
-            </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
-            <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
-            </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
-
+             </div>
     </Slide>
     <Slide left>
-    <div className="feature">
+    <div className="feature left-align">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
+            <div className="m-1" style={{textAlign:"left"}}>
             <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
             </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
+             </div>
     </Slide>
-<Slide  right>
-    <div className="feature">
+    <Slide right>
+    <div className="feature left-align">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
+            <div className="m-1" style={{textAlign:"left"}}>
             <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
             </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
-
-    </Slide>   
+             </div>
+    </Slide>
     <Slide left>
-    <div className="feature">
+    <div className="feature left-align">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
+            <div className="m-1" style={{textAlign:"left"}}>
             <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
             </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
+             </div>
     </Slide>
-<Slide  right>
-    <div className="feature">
+    <Slide right>
+    <div className="feature left-align">
         <div className="green-circle" >
             <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
             </div>
-            <div style={{textAlign:"center", margin:"20px"}}>
+            <div className="m-1" style={{textAlign:"left"}}>
             <h3>Agro Consulting</h3>
-            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</h6>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
             </div>
-            <div style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
-    </div>
-
+             </div>
+    </Slide>
+    <Slide left>
+    <div className="feature left-align">
+        <div className="green-circle" >
+            <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
+            </div>
+            <div className="m-1" style={{textAlign:"left"}}>
+            <h3>Agro Consulting</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
+            </div>
+             </div>
+    </Slide>
+    <Slide right>
+    <div className="feature left-align">
+        <div className="green-circle" >
+            <img src={agro} alt="agro" style={{marginTop:"20px"}}/>
+            </div>
+            <div className="m-1" style={{textAlign:"left"}}>
+            <h3>Agro Consulting</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+            <div className="pt-2" style={{color:"green"}}>read more <i className ="fa fa-angle-right"></i></div>
+  
+            </div>
+             </div>
     </Slide>
         
 
