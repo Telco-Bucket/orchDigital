@@ -3,6 +3,40 @@
     font-family: "Inter";
     
    }
+
+   .btn-start{
+    background: #FFFFFF;
+    border-radius: 32px;
+    padding: 15px;
+    width: 200px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 19px;
+    /* or 79% */
+    border: 1px solid #324191;
+    letter-spacing: 5px;
+    
+    color: #324191;
+        }
+
+        .btn-learn{
+            background: #FFFFFF;
+            border-radius: 32px;
+            padding: 15px;
+            width: 200px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 19px;
+            /* or 79% */
+            border: 1px solid #324191;
+            letter-spacing: 5px;
+            
+            color: #324191;
+                }
     .partners-height{
     height: 30vh;
 }
@@ -48,14 +82,14 @@ ul, li{
    .feature{
        font-family: "Inter";
     width: 20vw;
-    height: 35vh;
+    max-height: 45vh;
     
     margin-top: 10px;
     background: #FFF;
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
 }
 .feature>div>h6{
     
@@ -115,7 +149,7 @@ background:  #3F3D56;
            text-align: center !important;
        }
        .partners-height{
-           height: 60vh;
+          height: 70vh;
 
        }
        .swing>img{
@@ -142,8 +176,7 @@ background:  #3F3D56;
     } 
     .feature{
         width: 40vw;
-        margin-left: auto;
-        margin-right: auto;
+        
         margin-top: 10px;
          max-height: 20vh;
     }

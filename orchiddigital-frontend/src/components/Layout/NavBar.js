@@ -135,7 +135,7 @@
 // };
 
 // export default NavBar;
-
+import {BrowserRouter as Link} from "react-router-dom";
 import logo from "../../Images/logo.svg"
  import { NavLink } from 'react-router-dom';
 
@@ -143,11 +143,11 @@ import React from 'react'
 
 export default function NavBar() {
   return (
-    <div>
+    <div id="nav" style={{marginTop: "-10px"}} >
       
 
 
-      <nav className="navbar navbar-expand-lg navbar-light h4">
+      <nav  className="navbar navbar-expand-lg navbar-light h4 position-fixed w-100" style={{zIndex:"1000"}}>
   <a className="navbar-brand" style={{width: "40vw"}} href="#"> 
   <NavLink to='/' >
        
@@ -155,22 +155,31 @@ export default function NavBar() {
        
      </NavLink> </a>
   <button className="navbar-toggler h3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
-    <span className="navbar-toggler-icon"></span>
+    {/* <span className="navbar-toggler-icon"></span> */}
+    <i className="fa fa-bars h1 border-white"></i>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul className="navbar-nav">
+    <ul className="navbar-nav bg-md-success bg-sm-success text-right" style={{color:"white"}}>
       <li className="nav-item active">
         <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
       </li>
       
       <li className="nav-item">
-        <a className="nav-link" href="#">About Us</a>
+        <Link  to="/about"><div className="nav-link" >About</div></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Services</a>
+        <a className="nav-link" href="#" >Services</a>
+      </li>
+      <li className="nav-item">
+      <a className="nav-link" href="#"> 
+  <NavLink to='/contactus' >
+       
+        Contact Us
+       
+     </NavLink> </a>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a  className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Contact Us
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

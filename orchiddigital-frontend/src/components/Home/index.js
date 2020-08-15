@@ -6,6 +6,8 @@ import Services from "../Home/Services"
 import Partners from "../Home/Partners"
 import Footer from '../Layout/Footer'
 import  Map from "../Home/Map"
+import Piece from "../Home/Piece"
+import  Form from "../Home/Form"
 
 
 
@@ -20,9 +22,11 @@ export default function Index() {
 
         <>
         <NavBar/>
+        <Piece/>
         <FirstScreen/>
         
         <Services/>
+        
         <Partners/>
         
         <Footer/>

@@ -3,7 +3,7 @@ import agro from "../../Images/icons/agro.svg"
 import Slide from 'react-reveal/Slide';
 export default function Services() {
     return (
-        <div className="  pt-5 mt-5 mb-4 pb-5 " style={{marginTop:"20vh", display:'grid',gridTemplateColumns:"1fr", alignItems:"center", background:'#F1F1F1' }}>
+        <div className="  pt-5 mt-5 mb-4 pb-5 " style={{ display:'grid',gridTemplateColumns:"1fr", alignItems:"center", background:'#F1F1F1' }}>
             <div className="text-center mx-auto">
                 <div className="h1">
                     Our Services

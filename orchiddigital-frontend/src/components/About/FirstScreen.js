@@ -4,7 +4,7 @@ import aboutusbg from "../../Images/aboutusbg.svg"
 export default function FirstScreen() {
     return (
         <div>
-            <div className="pb-5 mt-5 mt-sm-5 first" style={{backgroundImage: `url(${aboutusbg})`, height:"40vh" , width:"100vw", backgroundRepeat:"no-repeat"}}></div>
+            <div className=" mt-sm-5 first" style={{backgroundImage: `url(${aboutusbg})`, height:"40vh" , width:"100vw", backgroundRepeat:"no-repeat"}}></div>
             <section className="h-25 w-100 text-center">
                 <h1 className="h1">ABOUT US</h1>
                 <h4 className="h4" style={{width:"50vw"}} className="text-center m-auto">

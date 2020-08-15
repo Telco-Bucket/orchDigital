@@ -1,5 +1,4 @@
 import React from 'react'
-
 import background from "../../Images/parnersbg.svg";
 import pind from "../../Images/partnersLogo/pind.svg"
 import rosabon from "../../Images/partnersLogo/rosabon.svg"

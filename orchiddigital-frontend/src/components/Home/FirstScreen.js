@@ -2,6 +2,7 @@
 import React from "react"
 import home from "../../Images/home.svg";
 import Flip from 'react-reveal/Flip';
+import  Button from "../Layout/Button"
 
 
 
@@ -10,7 +11,7 @@ export default function FirstScreen() {
 
     return (
         
-            <div className="pb-5 first" style={{backgroundImage: `url(${home})`, height:"90vh" , width:"98vw", backgroundRepeat:"no-repeat"}}>
+            <div className="pb-5 first" style={{backgroundImage: `url(${home})`, height:"90vh" , width:"98vw", backgroundRepeat:"no-repeat", paddingTop:"50px"}}>
           
           <div style={{maxWidth:"450px"}}>
           <h1 className="h1 p-3" style={{color:"#F2F2F2"}}>
@@ -21,11 +22,11 @@ export default function FirstScreen() {
           </h6>
           <div className="p-2">
           <Flip left>
-          <button id="btn-start" data-aos={"fade-left"}  className="m-sm-1 m-xl-1 btn btn-start h1 " style={{width:"193px", height:"62px", borderRadius:"3px", border:"1px solid white", color:"white", background:"#3F3D56" }}>Get Started</button>
-
+            <Button Type="button" Text="Get Started"/>
+            
         </Flip>
               <Flip right>
-              <button id="btn-start2" data-aos={"fade-right"} className="m-sm-1  m-xl-1 btn btn-outline-start h1" style={{width:"193px", height:"62px", background:"white",borderRadius:"3px", border:"1px solid  #3F3D56", color:"#3F3D56" }}>Learn More</button>
+              <button id="btn-start2 " data-aos={"fade-right"} className="btn-learn m-sm-1  m-xl-1 btn btn-outline-start h1" style={{width:"193px", height:"62px", background:"white", border:"1px solid  #3F3D56", color:"#3F3D56" }}>Learn More</button>
            </Flip>
           
           </div>
