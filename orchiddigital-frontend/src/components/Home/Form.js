@@ -9,7 +9,7 @@ return (
   <MDBRow>
     <MDBCol md="6">
       <form className="mt-5">
-        <h1 className="h1 text-center mb-4">Contact Us</h1>
+        <h3 className="h3 text-center mb-4">Contact Us</h3>
         <div className="grey-text">
           <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
             success="right" />

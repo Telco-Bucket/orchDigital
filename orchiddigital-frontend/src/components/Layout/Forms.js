@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Button from "../Layout/Button"
 
 export default class Form extends Component {
+   
     constructor(props){
         let Title=props.Title
         let showPurpose=props.showPurpose
@@ -83,11 +84,20 @@ onSubmit(e){
 }
 
     render() {
+        let Style={
+            marginToop: '10px',
+        background: '#FFF',
+        "WebkitBoxShadow": '0px 4px 8px rgba(0, 0, 0, 0.05)',
+        boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.05)",
+        borderRadius: "5px",
+        padding: "20px",
+        maxWidth: "400px"
+        }
         return (
         <div className="container mt-1" >
 
-            <h3>{this.state.Title}</h3>
-            <form className="container" onSubmit={this.onSubmit} style={{maxWidth:"500px"}}>
+            <h5 className='container'>{this.state.Title}</h5>
+            <form className="container" onSubmit={this.onSubmit} style={Style}>
             <div className="form-grou" style={{display:this.state.showPurpose}}>
                     
                     <input type="text"
@@ -99,11 +109,12 @@ onSubmit(e){
                      
                 </div>
                 <div className="form-group">
-                    <label>Name :</label>
+                    <label>Name </label>
                     <input type="text"
                      className="form-control"
                      value={this.state.name}
-                     onChange={this.onChangeName}/>
+                     onChange={this.onChangeName}
+                     required/>
                 </div>
                
 
@@ -112,7 +123,8 @@ onSubmit(e){
                     <input type="email"
                      className="form-control"
                      value={this.state.email}
-                     onChange={this.onChangeEmail}/>
+                     onChange={this.onChangeEmail}
+                     required/>
                 </div>
 
 
@@ -128,13 +140,14 @@ onSubmit(e){
                     <textarea type="text"
                      className="form-control"
                      value={this.state.message}
-                     onChange={this.onChangeMessage}/>
+                     onChange={this.onChangeMessage}
+                     required/>
                 </div>
                
             
                 <div className="form-group">
                 
-                <Button Type="submit" Text="Submit"/>
+                <Button Type="submit" Text="Submit"  maxWidth="200px"/>
 
             </div>
 

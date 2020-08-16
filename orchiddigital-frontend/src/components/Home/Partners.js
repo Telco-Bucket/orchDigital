@@ -8,7 +8,7 @@ import "../Home/swing.css"
 
 export default function Partners() {
     return (
-        <div className="text-center">
+        <div className="text-center pb-3 mb-4">
             <div style={{ display:"grid", gridTemplateColumns:"1fr", alignItems:"center"}}>
             
             <div>

@@ -11,7 +11,7 @@ export default function FirstScreen() {
 
     return (
         
-            <div className="pb-5 first" style={{backgroundImage: `url(${home})`, height:"90vh" , width:"98vw", backgroundRepeat:"no-repeat", paddingTop:"50px"}}>
+            <div className=" first" style={{backgroundImage: `url(${home})`, height:"90vh" , width:"98vw", backgroundRepeat:"no-repeat", paddingTop:"50px"}}>
           
           <div style={{maxWidth:"450px"}}>
           <h1 className="h1 p-3" style={{color:"#F2F2F2"}}>

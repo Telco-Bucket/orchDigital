@@ -38,7 +38,7 @@
             color: #324191;
                 }
     .partners-height{
-    height: 30vh;
+    height: 35vh;
 }
    #partners-grid{display:grid !important;
      grid-template-columns:1fr 1fr 1fr;
@@ -82,7 +82,7 @@ ul, li{
    .feature{
        font-family: "Inter";
     width: 20vw;
-    max-height: 45vh;
+    max-height: 55vh;
     
     margin-top: 10px;
     background: #FFF;

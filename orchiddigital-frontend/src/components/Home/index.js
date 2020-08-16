@@ -8,6 +8,8 @@ import Footer from '../Layout/Footer'
 import  Map from "../Home/Map"
 import Piece from "../Home/Piece"
 import  Form from "../Home/Form"
+import Testimonies from "../Home/Testimonies"
+import Typing from "../Home/Typed"
 
 
 
@@ -23,12 +25,14 @@ export default function Index() {
         <>
         <NavBar/>
         <Piece/>
+     
         <FirstScreen/>
-        
+     
         <Services/>
         
         <Partners/>
-        
+        <Testimonies/>
+        <Typing/>
         <Footer/>
         
         </>

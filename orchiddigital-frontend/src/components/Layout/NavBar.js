@@ -140,6 +140,7 @@ import logo from "../../Images/logo.svg"
  import { NavLink } from 'react-router-dom';
 
 import React from 'react'
+import Button from "../Layout/Button"
 
 export default function NavBar() {
   return (
@@ -159,26 +160,35 @@ export default function NavBar() {
     <i className="fa fa-bars h1 border-white"></i>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul className="navbar-nav bg-md-success bg-sm-success text-right" style={{color:"white"}}>
-      <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+    <ul className="navbar-nav bg-md-success bg-sm-success  text-center" style={{color:"white"}}>
+    <li className="nav-item">
+        <NavLink  to="/"><div className="nav-link" >Home</div></NavLink>
       </li>
       
       <li className="nav-item">
-        <Link  to="/about"><div className="nav-link" >About</div></Link>
+        <NavLink  to="/bout"><div className="nav-link" >About</div></NavLink>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#" >Services</a>
       </li>
       <li className="nav-item">
-      <a className="nav-link" href="#"> 
+      
   <NavLink to='/contactus' >
        
-        Contact Us
+  <div className="nav-link" >Contact us</div>
        
-     </NavLink> </a>
+     </NavLink> 
+   
       </li>
-      <li className="nav-item dropdown">
+      <li className="nav-item">
+      
+      <NavLink to='/contactus' >
+           
+      <Button Text='Consult Us ' maxWidth="500px"/>
+           
+         </NavLink> 
+          </li>
+      {/* <li className="nav-item dropdown">
         <a  className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Contact Us
         </a>
@@ -187,7 +197,7 @@ export default function NavBar() {
           <a className="dropdown-item" href="#">Another action</a>
           <a className="dropdown-item" href="#">Something else here</a>
         </div>
-      </li>
+      </li> */}
     </ul>
   </div>
 </nav>

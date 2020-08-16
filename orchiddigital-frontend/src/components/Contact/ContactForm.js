@@ -9,7 +9,7 @@ export default function ContactForm() {
             <section style={{display:"grid", gridTemplateColumns:"1fr 1fr"}}>
             <h1 className="d-xl-block d-lg-block d-md-none d-sm-none"></h1>
             <section className='container' style={{backgroundColor:"#F6F6F6", maxWidth:"450px",}}>
-            <Form Title="Contact Us"  showPurpose="none"/>
+            <Form Title="Write to Us Today"  showPurpose="none"/>
             </section>
             </section>
             
