@@ -1,0 +1,157 @@
+{
+    "Header": {
+
+        "title": "Welcome To Orchid Digital",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+
+    },
+    "About": {
+        "paragraph": "Whether you are running a small, medium or large scale business, we train participants on knowledge required to successfully startup abd run a business as well as to seek and get fundings for the enterprise.",
+        "Why": [
+            "We Train",
+            "We Educate",
+            "We Monitor",
+            "We Adhere to best Practices"
+        ],
+        
+        "Why2": [
+            "We are Reliable",
+            "Topnotch Customers Service",
+            "Always Available",
+            "Our Clients are number one"
+        ]
+    },
+
+    "HomeScreen": {
+        "paragraph": "Whether you are running a small, medium or large scale business, we take care of your finances, operations, and more at Orchiddigital Consulting Limited.        ",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Services": [
+       
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "ACCESS TO MARKET:",
+            "text": "We connect bulk purchasers for your products and services, we sell your goods and services across borders and enter foreign markets.."
+        },
+        {
+            "icon": "fa fa-bar-chart",
+            "name": "AGRO CONSULTING:",
+            "text": "We specialize in advising, provide technical, commercial and financial advice and information to farming, agricultural and public sector. ."
+        },
+       
+        {
+            "icon": "fa fa-plane",
+            "name": "EXPORT OF RAW MATERIALS",
+            "text": "We move goods and services from the country to other countries to be purchased, this saves a lot of cost for you and gives you more ...                                                  ."
+        },
+       
+        {
+            "icon": "fa fa-group",
+            "name": "ENTREPRENUERSHIP TRAINING:",
+            "text": "It is a training scheme to develop persons for self employment or for organizing, financing and managing new ventures or businesses...."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "FACILITY MANAGEMENT:",
+            "text": "We co-ordinate everything that keeps a business; physical buildings, systems and assets running..."
+        },
+        {
+            "icon": "fa fa-laptop",
+            "name": "INSURANCE /AUDIT AND TAX CLEARANCE:",
+            "text": "We provide farmers with financial protection against production posses caused by..."
+        },
+        
+        {
+            "icon": "fa fa-code",
+            "name": "ENTERPRISE MANAGEMENT SOFTWARE DEVELOPMENT /MAINTENANCE:",
+            "text": "We are into development,maintenance and re-engineers software solution.."
+        },
+        {
+            "icon": "fa fa-bank",
+            "name": "ACCESS TO FINANCE",
+            "text": "We provide with multiple types of services dedicated to support both on and off -farm agricultural activities and businesses.."
+        }
+       
+      
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/ceo.jpeg",
+            "name": "Mr. Chiadikaobi David Okoh",
+            "job": "Director/CEO"
+        }
+    ],
+    "Contact": {
+        "address": "Plot 5 0ff Peter Odili Extension road,Gbajalam, Woji, Opposite Chelsea Filling Station, ",
+        "phone": "07032533822, 09077251862",
+        "email": " johndoe@orchdigitalconsulting.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
