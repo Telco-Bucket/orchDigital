@@ -23,7 +23,7 @@ export class Services extends Component {
                     <div className="service-desc">
                       <h3>{d.name}</h3>
                       <p>{d.text}  </p>
-                      <p><a href="/services" style={{color:"green"}}>Learn more...</a></p>
+                      <p style={{background:"white"}}><a href="/services" style={{color:"whit"}}>Learn more...</a></p>
                     </div>
                   </div>
                   </Zoom>

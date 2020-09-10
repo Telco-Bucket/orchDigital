@@ -12,7 +12,7 @@ export class Mission extends Component {
           </div>
           <div id="row">
           
-                  <div   className="col-md-6 col-sm-6 team ">
+                  <div   className="col-md-6 col-sm-6 ">
                     <div className="thumbnail">
                       {" "}
                       <h3>Our Mission</h3>
@@ -24,7 +24,7 @@ export class Mission extends Component {
                   </div>
                  
                   
-                  <div   className="col-md-6 col-sm-6 team ">
+                  <div   className="col-md-6 col-sm-6 ">
                     <div className="thumbnail">
                       {" "}
                       <h3>Our Vision</h3>

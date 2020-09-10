@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
 
 
-export default class Form extends Component { 
+export class ApplicationForm extends Component  { 
 
   constructor(props) {
     super(props);
@@ -11,16 +11,27 @@ export default class Form extends Component {
     this.onChangeContactName = this.onChangeContactName.bind(this);
     this.onChangeContactEmail = this.onChangeContactEmail.bind(this);
     this.onChangeContactMessage = this.onChangeContactMessage.bind(this);
+    this.onChangePostedDate = this.onChangePostedDate.bind(this);
+    this.onChangeContactNumber = this.onChangeContactNumber.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
 
     this.state = {
         contact_name: '',
         contact_email: '',
         contact_message: '',
+        posted_date:'',
+        contact_number:"",
+       
         isSuccess:false,
         isServerDown:false
      
     }
+}
+
+onChangePostedDate(e) {
+  this.setState({
+      posted_date: e.target.value
+  });
 }
 
 onChangeContactEmail(e) {
@@ -40,6 +51,11 @@ onChangeContactMessage(e) {
         contact_message: e.target.value
     });
 }
+onChangeContactNumber(e) {
+  this.setState({
+      contact_number: e.target.value
+  });
+}
 
 onSubmit(e) {
     e.preventDefault();
@@ -48,16 +64,20 @@ onSubmit(e) {
     console.log(`Contact Name: ${this.state.contact_name}`);
     console.log(`Contact Message: ${this.state.contact_message}`);
     console.log(`Email: ${this.state.contact_email}`);
-  
+    console.log(`Date: ${this.state.posted_date}`);
+    console.log(`Number: ${this.state.contact_number}`);
 
     const newContact = {
       contact_name: this.state.contact_name,
       contact_email: this.state.contact_email,
       contact_message: this.state.contact_message,
+      posted_date: this.state.posted_date,
+      contact_number: this.state.contact_number,
+     
        
     }
 
-    axios.post('http://localhost:4001/contact_form/add', newContact)
+    axios.post('http://localhost:4001/consult_form/add', newContact)
         .then(res => { if(res.status===200){
           this.setState({isSuccess:true})
           console.log(res.data)
@@ -67,8 +87,10 @@ onSubmit(e) {
 
     this.setState({
       contact_name: '',
+      contact_number:"",
       contact_email: '',
       contact_message: '',
+      posted_date:""
     })
     
 }
@@ -79,21 +101,63 @@ onSubmit(e) {
       return <Redirect to="/serverdown"/>
     }
     return (
-        <div>
-             <form name="sentMessage" id="contactForm" onSubmit={this.onSubmit}>
-             <div className="row">
-                    <div className="col-md-6">
+        <div >
+        <div id="contact">
+          <div className="container">
+            <div className="col-md-12">
+              <div className="row">
+                <div className="section-title">
+                  <h2>Book A Consultation</h2>
+                  <p>
+                    Please fill out the form below to book a Consultation with us. Do not forget to specify the date.
+                  </p>
+                </div>
+                <form name="sentMessage" id="contacForm" onSubmit={this.onSubmit}>
+                  <div className="row " >
+                  <div className="col-md-4">
+                      <div className="form-group">
+                        <input
+                          type="date"
+                          id="number"
+                          value={this.state.posted_date}
+                          
+                          onChange={this.onChangePostedDate}
+                          className="form-control"
+                          placeholder="Pick a Date to come"
+                          required="required"
+                        />
+                        <p className="help-block text-danger"></p>
+                      </div>
+                    </div>
+
+
+                    <div className="col-md-4">
                       <div className="form-group">
                         <input
                           type="text"
-                          value={this.state.contact_name}
                           id="name"
+                          value={this.state.contact_name}
+                          
                           onChange={this.onChangeContactName}
                           className="form-control"
                           placeholder="Name"
                           required="required"
                         />
-                     
+                        <p className="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div className="col-md-4">
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          id="number"
+                          value={this.state.contact_number}
+                          
+                          onChange={this.onChangeContactNumber}
+                          className="form-control"
+                          placeholder="Phone Number"
+                          required="required"
+                        />
                         <p className="help-block text-danger"></p>
                       </div>
                     </div>
@@ -107,33 +171,42 @@ onSubmit(e) {
                           onChange={this.onChangeContactEmail}
                           className="form-control"
                           placeholder="Email"
-                          required="required"
+                        
                         />
                         <p className="help-block text-danger"></p>
                       </div>
                     </div>
                   </div>
+                 
                   <div className="form-group">
                     <textarea
                       name="message"
                       id="message"
                       className="form-control"
                       rows="4"
-                      placeholder="Message"
                       value={this.state.contact_message}
-                      
-                      onChange={this.onChangeContactMessage}
+                          
+                          onChange={this.onChangeContactMessage}
+                      placeholder="Write to us"
                       required
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
-                  <button type="submit" className="btn btn-custom btn-lg p4">
-                    Send Message...
+                  <button type="submit" className="btn btn-custom btn-lg">
+                    Book
                   </button>
                 </form>
-            
-        </div>
+              </div>
+            </div>
+           </div>
+              </div>
+              </div>
     )
 }
 }
+
+
+
+
+export default ApplicationForm

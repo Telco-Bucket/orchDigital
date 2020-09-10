@@ -101,8 +101,7 @@ export class Service extends Component {
                
                <div className="list-style">
                  <div className=" col-xs-12 h2 font-weight-lighter">
-                  We provide with multiple types of services dedicated to support both on and off -farm agricultural activities and businesses including input provision, production, distribution, wholesales, processing and marketing.
-                 </div>
+                 We provide financial services through commercial banks private financial institution, CBN NIRSAL MFB, CBN Microfinance for start ups and expanding business dedicated to support both on-off farm agricultural activities and businesses.   </div>
                </div>
              </div>
 

@@ -17,13 +17,14 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
-                data: {
-                    name: name,
-                    email: email,
-                    message: message
-                },
+                // url: "http://localhost:4001/contact_form/add",
+                // type: "POST",
+                // data: {
+                //     name: name,
+                //     email: email,
+                //     message: message
+                // },
+                
                 cache: false,
                 success: function() {
                     // Success message

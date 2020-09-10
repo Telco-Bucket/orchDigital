@@ -48,7 +48,7 @@ export default class index extends Component {
          
             <Partners/>
            <Testimonials data={this.state.landingPageData.Testimonials}/>
-            <Team data={this.state.landingPageData.Team} />
+          
             <Contact data={this.state.landingPageData.Contact} />
             <Footer/>
          
