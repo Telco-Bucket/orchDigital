@@ -8,7 +8,7 @@ export default function Buttons() {
                 Book A Consultation
                   </button>
                   </Link>
-                  <Link to="/"><button className="btn btn-custom btn-lg text-dark p-2" style={{background:"white", color:"blue !important", border:"1px solid blue", margin:"5px"}} >Enroll Today</button></Link>
+                  <Link to="/apply"><button className="btn btn-custom btn-lg text-dark p-2" style={{background:"white", color:"blue !important", border:"1px solid blue", margin:"5px"}} >Enroll Today</button></Link>
 
         </div>
     )

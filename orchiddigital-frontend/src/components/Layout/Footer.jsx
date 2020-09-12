@@ -30,7 +30,7 @@ export default function Footer() {
 
         <ul className="">
           <li>
-            <a href="/enroll" style={{color:"white", fontSize:"16px"}}>Enroll Today!!</a>
+            <a href="/apply" style={{color:"white", fontSize:"16px"}}>Enroll Today!!</a>
           </li>
           <li>
             <a href="consultus" style={{color:"white", fontSize:"16px"}}>Book A Consultation</a>

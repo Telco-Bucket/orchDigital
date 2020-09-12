@@ -10,24 +10,19 @@ export default function About() {
             <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
-                <h2>About Us</h2>
-                <p>
+                <h1 style={{fontSize:"35px"}}>About Us</h1>
+                <div style={{fontSize:"25px", fontWeight:"lighter"}}>
 Orchiddigital Consulting Limited has been in operation, invented measures to eradicate poverty, halt the increment of unemployment, promote job creation through starts-up of new business and also alleviate business failure by helping existing businesses grow.
 Orchiddigital Consulting Limited is the part of the strategy to hand-hold entrepreneurs through a tried and tested education process resulting in stronger sustainable business growth.
-</p>
-                  <div className="list-style">
-                  <div className="col-lg-6 col-sm-6 col-xs-12">
-              
-                  </div>
-                  
-                </div>
+</div>
+                
               </div>
             </div>
-            <div className="col-xs-12 col-md-5 bg-white mt-3">
+            <div className="col-xs-12 col-md-6 bg-white mt-3 pb-5">
             <h3>OUR ENGAGAEMENT APPROACH</h3>
-                <div className="h3 u">Specifically, Orchiddigital facilitates the achievement of the following outcomes:</div>
+                <div className="h3 u" style={{fontSize:"22px", fontWeight:"lighter"}}>Specifically, Orchiddigital facilitates the achievement of the following outcomes:</div>
                 <div className="list-style">
-                    <ul className="list-style h4">
+                    <ul className="list-style h4" style={{fontSize:"20px", fontWeight:"lighter"}}>
                      <li><i className="fa fa-pencil"></i>Develop entrepreneurial skills of individuals to successfully start, manage, diversify and expand business enterprises
 </li>  
 <br/>
@@ -41,11 +36,11 @@ Orchiddigital Consulting Limited is the part of the strategy to hand-hold entrep
            </div>   
                </div>
 
-               <div className="col-xs-12 col-md-5 bg-success text-white mt-3">
-                 <div className="h2">
+               <div className="col-xs-12 col-md-6 bg-success text-white mt-3 pb-5">
+                 <div className="h2" style={{fontSize:"22px", fontWeight:"lighter"}}>
                    ACCOMPLISHMENT PLANS
                  </div>
-               <div className="h4">
+               <div className="h4" style={{fontSize:"20px", fontWeight:"lighter"}}>
                   To accomplish this mandate, participants are put through our ONE week long entrepreneurship development program, where we operate online and physical classroom training engagement model. We make the ‘Learning by Doing’ maxim in our development approach, and even our training follows the experiential learning methodology. Orchiddigital Consulting Limited engage aspiring and existing entrepreneurs, regardless of level of education, gender or socio-economic status. Only criteria is for participants to be 18yrs & above.
                   </div>
               

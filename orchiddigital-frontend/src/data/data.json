@@ -120,22 +120,22 @@
         }
     ],
     "Team": [{
-            "img": "img/team/ceo.jpeg",
+            "img": "img/team/ceo.svg",
             "name": "Mr. Chiadikaobi David Okoh",
             "job": "Director/CEO"
         },
         {
-            "img": "img/team/rejoice.jpeg",
+            "img": "img/team/rejoice.svg",
             "name": "Miss. Ugoh Rejoice",
             "job": "Secretary"
         },
         {
-            "img": "img/team/sec.jpeg",
+            "img": "img/team/sec.svg",
             "name": "Miss. Blessing Okolie",
             "job": "Financial secretary"
         },
         {
-            "img": "img/team/IT.jpeg",
+            "img": "img/team/IT.svg",
             "name": "Mr. David Johnson",
             "job": "I.T"
         }
